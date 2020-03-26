@@ -16,9 +16,17 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txtNombre"/>
     <Button
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
         android:layout_below="@+id/txtPassword"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnLogin"/>
 
 </RelativeLayout>
